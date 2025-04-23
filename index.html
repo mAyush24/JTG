@@ -7,8 +7,10 @@
     <title>Figma Land</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -22,20 +24,24 @@
                 <a href="#">About</a>
                 <a href="#">Contact</a>
             </div>
-            <div class="logo">FIGMA LAND</div>
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
             <div class="nav-right">
-                <!-- todo logo -->
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" /></a>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
         </nav>
-
+        
         <div class="hero-content">
             <h1>The best products start with Figma</h1>
-            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
             <button class="btn">Try For Free</button>
         </div>
+        
 
         <div class="bottom-shape"></div>
     </header>
@@ -48,19 +54,19 @@
 
         <div class="feature-grid">
             <div class="feature-item">
-                <img src="https://img.icons8.com/fluency/48/000000/font.png" alt="Font Icon" />
+                <img src="font.png" alt="Font Icon" />
                 <h3>OpenType features<br>Variable fonts</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
 
             <div class="feature-item">
-                <img src="https://img.icons8.com/fluency/48/000000/data.png" alt="Data Icon" />
+                <img src="draw.png" alt="Data Icon" />
                 <h3>Design with real data</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
 
             <div class="feature-item">
-                <img src="https://img.icons8.com/fluency/48/000000/edit-row.png" alt="Action Icon" />
+                <img src="brush.png" alt="Edit Icon" />
                 <h3>Fastest way to<br>take action</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
@@ -70,13 +76,11 @@
     <section class="video-section">
         <div class="video-wrapper" onclick="togglePlay()">
             <video id="featureVideo"
-                poster="https://images.unsplash.com/photo-1581093588401-ec7f1f1ed6af?fit=crop&w=800&q=80">
+                poster="https://images.unsplash.com/photo-1581093588401-ec7f1f1ed6af?fit=crop&w=800&q=80" controls>
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            <div class="play-button" id="playIcon">
-                ▶
-            </div>
+            <div class="play-button" id="playIcon">▶</div>
         </div>
     </section>
 
@@ -88,7 +92,7 @@
                 <button class="btn-primary">Try For Free</button>
             </div>
             <div class="image-content">
-                <img src="https://i.ibb.co/Q8K0B1G/laptop.png" alt="Laptop Screenshot" />
+                <img src="laptop.png" alt="Laptop Screenshot" />
             </div>
         </div>
     </section>
@@ -96,7 +100,7 @@
     <section class="subscribe-section">
         <div class="container">
             <div class="illustration">
-                <img src="https://i.ibb.co/Yjz9kdh/illustration.png" alt="Illustration" />
+                <img src="newsletter.png" alt="Illustration" />
             </div>
             <div class="subscribe-content">
                 <p class="caption">At your fingertips</p>
@@ -113,42 +117,40 @@
     <section class="partners-section">
         <h2>Partners</h2>
         <p>Most calendars are designed for teams.<br />Slate is designed for freelancers</p>
-
         <div class="partners-grid">
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+                    alt="Google Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+                    alt="Amazon Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+                    alt="Microsoft Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="Uber">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
+                    alt="Uber Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Dropbox_logo_2017.svg" alt="Dropbox">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+                    alt="Google Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+                    alt="Amazon Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="Uber">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+                    alt="Microsoft Logo">
             </div>
             <div class="partner-card">
-                <p>Client Name</p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                <p>Client Name</p><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
+                    alt="Uber Logo">
             </div>
         </div>
-
         <button class="btn-primary">Try For Free</button>
     </section>
 
@@ -156,44 +158,29 @@
         <h2>Testimonials</h2>
         <div class="testimonial-slider">
             <div class="testimonial-slide active">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="logo" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo"
+                    class="logo" />
                 <p class="testimonial-text">
                     Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to
                     plan their schedule.
                 </p>
                 <div class="user">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" />
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" />
                     <div>
                         <strong>John Doe</strong>
                         <small>UI designer</small>
                     </div>
                 </div>
             </div>
-
             <div class="testimonial-slide">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft"
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo"
                     class="logo" />
                 <p class="testimonial-text">
                     Slate simplifies everything and helps my team stay productive. A dream tool for freelancers and
                     small teams.
                 </p>
                 <div class="user">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" />
-                    <div>
-                        <strong>Jane Smith</strong>
-                        <small>Product Manager</small>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slide">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft"
-                    class="logo" />
-                <p class="testimonial-text">
-                    Slate simplifies everything and helps my team stay productive. A dream tool for freelancers and
-                    small teams.
-                </p>
-                <div class="user">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" />
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jane Smith" />
                     <div>
                         <strong>Jane Smith</strong>
                         <small>Product Manager</small>
@@ -201,21 +188,15 @@
                 </div>
             </div>
         </div>
-
         <div class="testimonial-dots">
             <span class="dot active-dot"></span>
-            <span class="dot"></span>
             <span class="dot"></span>
         </div>
     </div>
 
     <section class="pricing-section">
         <h2>Pricing</h2>
-        <p class="description">
-            Most calendars are designed for teams.<br>
-            Slate is designed for freelancers
-        </p>
-
+        <p class="description">Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
         <div class="pricing-cards">
             <div class="card">
                 <h3>FREE</h3>
@@ -231,7 +212,6 @@
                 </ul>
                 <button>Order Now</button>
             </div>
-
             <div class="card highlight">
                 <h3>STANDARD</h3>
                 <p class="subtitle">Organize across all apps by hand</p>
@@ -246,7 +226,6 @@
                 </ul>
                 <button class="white-btn">Order Now</button>
             </div>
-
             <div class="card">
                 <h3>BUSINESS</h3>
                 <p class="subtitle">Organize across all apps by hand</p>
@@ -263,7 +242,11 @@
             </div>
         </div>
     </section>
-
+    
+    <section class="contact-intro">
+        <h2>Contact Us</h2>
+        <p>Most calendars are designed for teams.<br />Slate is designed for freelancers</p>
+    </section>
     <section class="contact-section">
         <div class="form-container">
             <form id="contactForm">
@@ -276,39 +259,73 @@
         </div>
 
         <div class="info-container">
-            <!-- Contact Info Section -->
             <div class="contact-info">
                 <div class="info-item">
-                    <img src="location-icon.png" alt="Location">
-                    <p>6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+                    <img src="location.png" alt="Location Icon" />
+                    <p>6386 Spring St, Anchorage, Georgia 12473, United States</p>
                 </div>
                 <div class="info-item">
-                    <img src="phone-icon.png" alt="Phone">
+                    <img src="phone.png" alt="Phone Icon" />
                     <p>(843) 555-0130</p>
                 </div>
                 <div class="info-item">
-                    <img src="email-icon.png" alt="Email">
+                    <img src="mail.png" alt="Email Icon" />
                     <p>willie.jennings@example.com</p>
                 </div>
             </div>
-            <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8566416779795!2d77.44301787628685!3d28.634058384009982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee22c60837b7%3A0x7c35343eceb7bde0!2sABES%20Engineering%20College!5e0!3m2!1sen!2sin!4v1745325393060!5m2!1sen!2sin" width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
-
-
-            <div class="social-icons">
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
-                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" /></a>
-            </div>
+            <center><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8566416779795!2d77.44301787628685!3d28.634058384009982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee22c60837b7%3A0x7c35343eceb7bde0!2sABES%20Engineering%20College!5e0!3m2!1sen!2sin!4v1745325393060!5m2!1sen!2sin"
+                    width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></center>
         </div>
-
     </section>
-
     <div class="modal" id="successModal">
         <div class="modal-content">
             <span class="close-button" onclick="closeModal()">&times;</span>
             <p>Your query sent successfully</p>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Tomothy</h3>
+            <ul>
+                <li><a href="#">Eleanor Edwards</a></li>
+                <li><a href="#">Ted Robertson</a></li>
+                <li><a href="#">Annette Russell</a></li>
+                <li><a href="#">Jennie McKinney</a></li>
+                <li><a href="#">Gloria Richards</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Jane Black</h3>
+            <ul>
+                <li><a href="#">Philip Jones</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Colleen Russell</a></li>
+                <li><a href="#">Marvin Hawkins</a></li>
+                <li><a href="#">Bruce Simmons</a></li>
+            </ul>
+        </div>
+        <div class="footer-section footer-contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> 7480 Mistwood Hollo</p>
+            <p><i class="fas fa-phone-alt"></i> (239) 555-0108</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
